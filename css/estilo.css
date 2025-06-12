@@ -1,6 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-h1{text-decoration: underline;
-text-decoration-color: blueviolet;}
+
+body{ background-color: rgb(49, 7, 128);
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+height: 1000px;}
+.container{
+    justify-content: space-between;
+    background-color: aliceblue;
+     width: 1200px;
+     align-items: center;
+    height: 300px;
+border-radius: 6px;
+ display: flex;}
+ .item{
+    display: flex;
+    text-align: center;
+    background-color: rgb(0, 255, 55);
+    padding: 20px;
+    flex-basis: 150px;
+    border-radius: 6px;
+    height: 30px;
+ }
